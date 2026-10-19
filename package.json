@@ -1,0 +1,23 @@
+{
+  "name": "vmware-network-modes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vibe知识大赏 - VMware 三种网络模式原理与区别",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Video out/video.mp4",
+    "still": "remotion still Video out/still.png",
+    "build": "remotion render Video out/video.mp4 --concurrency=8"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.536",
+    "@remotion/fonts": "^4.0.536",
+    "@remotion/renderer": "^4.0.536",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.536",
+    "typescript": "^7.0.2"
+  }
+}

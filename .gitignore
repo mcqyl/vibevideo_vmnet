@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+out/
+*.log
+
+# 成片体积较大，通过 GitHub Release 分发
+*.mp4
+
+# 中文字体从系统提取，不入库（版权 + 体积）
+public/fonts/*.ttf
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 本地工作记忆，不入库
+.workbuddy-ai/
